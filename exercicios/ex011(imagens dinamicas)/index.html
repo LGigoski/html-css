@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="gremio.ico.ico" type="image/x-icon">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/medio.png" type="image/png">
+        <img src="imagens/grande.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+    <audio src="midia/eu.ogg" controls autoplay
+    ></audio>
+    <p>outra forma de colocar o audio no seu site é assim</p>
+    <audio preload="none" controls loop>
+        <source src="midia/eu.ogg" type="audio/ogg">
+        <source src="midia/eu.mp3" type="audio/mpeg">
+        <source src="midia/eu.wav" type="audio/wav">
+    </audio>
+</body>
+</html>

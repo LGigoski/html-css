@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'new';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(228, 195, 151);
+    margin: 0px;
+}
+header {
+    background: linear-gradient(to top, rgb(0, 37, 0), rgb(0, 54, 0), rgb(0, 71, 0), rgb(0, 99, 0), rgb(0, 128, 0));
+    color: white;
+    padding: 20px 20px 5px 20px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.377);
+}
+h1 {
+    font-family:  'Bebas Neue', sans-serif;
+    ;
+    text-align: center;
+}
+h2 {
+    font-family: 'new', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 70, 0);
+}
+h3 {
+    font-family: 'new', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 70, 0);
+    background: linear-gradient(to right, rgba(0, 128, 0, 0.651), rgba(0, 128, 0, 0.24), rgba(0, 128, 0, 0.068), rgba(0, 128, 0, 0));
+    padding: 5px;
+}
+header > p {
+    text-align: center;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin-left: 1px;
+    padding: 4px;
+}
+nav > a:hover {
+    color: rgb(0, 80, 0);
+    padding: 4px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.384);
+}
+main {
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    min-width: 280px;
+    max-width: 800px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 7px 4px rgba(0, 0, 0, 0.514);
+}
+img {
+    width: 100%;
+}
+p {
+    text-align: justify;
+    text-indent: 10px;
+}
+.texto {
+    font-weight: bold;
+    color: rgb(0, 51, 0);
+    text-decoration: none;
+    background: linear-gradient(to right, rgba(0, 128, 0, 0.767), rgba(0, 128, 0, 0.418));
+}
+.texto:hover {
+    text-decoration: underline;
+}
+article {
+    background-color: rgba(0, 128, 0, 0.37);
+    padding: 5px;
+    margin: auto;
+    border-radius: 10px;
+    width: 700px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.514);
+}
+article > h4 {
+    background-color: darkgreen;
+    color: white;
+    margin: -5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 15px;
+}
+article > p > a {
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: bold;
+}
+footer {
+    background-color: rgb(0, 46, 0);
+    color: white;
+    padding-bottom: 1px;
+    margin: 20px 0px 0px 0px;
+}
+footer > p {
+    text-align: center;
+    padding: 10px;
+}
