@@ -7,14 +7,25 @@
     <title> Teste fundo 06 </title>
     <style>
         body {
+            height: 100vh;
+            /*
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /* Shorthand - background: 
+                color > image > position > repeat > [size] 
+                > attachment  */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
         main {
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             background-color: white;
@@ -26,7 +37,7 @@
 <body>
     <main>
         <h1> Primeiro teste conretizado </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, in quam corrupti, blanditiis laborum numquam et veniam veritatis fuga hic eligendi tenetur nam enim, molestias dignissimos! Pariatur neque ad animi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, consequuntur magni numquam sequi maiores iure laudantium repudiandae! Dolores dolore, repellat nulla fuga dolorem ea, pariatur aspernatur, mollitia ipsam est corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse beatae sapiente unde officiis dignissimos iure atque temporibus impedit numquam autem officia quo, labore ipsa, incidunt accusamus dolores dolor. Voluptatem, distinctio.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, in quam corrupti, blanditiis laborum numquam et veniam veritatis fuga hic eligendi tenetur nam enim, molestias dignissimos! Pariatur neque ad animi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, consequuntur magni numquam sequi maiores iure laudantium repudiandae! Dolores dolore, repellat nulla fuga dolorem ea, pariatur aspernatur, mollitia ipsam est corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse beatae sapiente unde officiis dignissimos iure atque temporibus impedit numquam autem officia quo, labore ipsa, incidunt accusamus dolores dolor. Voluptatem, distinctio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit esse id, alias possimus voluptas repudiandae dicta quam tempora magnam, incidunt quo impedit blanditiis similique? Deserunt optio odio suscipit adipisci voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, rerum voluptatum, iure vitae recusandae consequuntur deleniti quia odio quis, nam voluptas esse cumque harum labore corporis necessitatibus natus. Adipisci, expedita. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi commodi, aliquam quae distinctio accusamus quod laudantium iusto est eaque natus. Soluta, dignissimos ea inventore quas nihil excepturi saepe beatae itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis optio maxime excepturi sit odio delectus doloremque architecto ipsam, error, nobis ducimus? Expedita exercitationem officia excepturi eveniet tenetur nulla, rerum voluptatibus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis accusantium iusto voluptatibus rem a quod maiores omnis, obcaecati, officiis enim quas incidunt? Itaque quo, et qui accusantium molestias nulla doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur repellat vel porro optio odit. Reprehenderit velit perspiciatis ipsam molestias quos, recusandae corrupti optio non eum doloremque aliquid ad est maxime! Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sequi veritatis debitis perferendis ratione atque animi corporis et dolorum? Exercitationem facere at in asperiores totam autem fugit itaque rerum impedit.</p>
     </main>
 </body>
 </html>
