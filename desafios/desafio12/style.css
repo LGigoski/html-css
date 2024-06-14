@@ -38,12 +38,10 @@ section {
 #joaninha {
     background: black url(imagens/background001.jpg) center center no-repeat fixed;
     background-size: cover;
-    height: 95vh;
 }
 #papel {
     background: black url(imagens/background002.jpg) center center no-repeat fixed;
     background-size: cover;
-    height: 95vh;
 }
 section > p {
     padding: 40px;
