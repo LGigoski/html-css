@@ -2,8 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
 
 * {
@@ -11,21 +10,28 @@
     padding: 0px;
 }
 header {
-    padding: 20px 0px 20px 0px;
+    padding: 50px 0px 50px 0px;
     background-color: black;
     text-align: center;
-    font-family: "Luckiest Guy", "sans-serif";
-    font-size: 2em;
     color: white;
 }
-
-section {
-    padding: 30px 20px;
-    font-family: "Sriracha", "sans-serif";
-    font-size: 3em;
+header > h1 {
+    font-variant: small-caps;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8vw;
 }
-article {
-    position: absolute;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-family: "Sriracha", "sans-serif";
+    font-size: 3.5vw;
+}
+.imag {
+    display: inline-block;
+    padding: 5px;
+    margin-left: 35px;
     background-color: rgba(0, 0, 0, 0.397);
     color: white;
 }
@@ -38,6 +44,9 @@ article {
     background: black url(imagens/background002.jpg) center center no-repeat fixed;
     background-size: cover;
     height: 95vh;
+}
+section > p {
+    padding: 40px;
 }
 footer {
     padding: 10px;
