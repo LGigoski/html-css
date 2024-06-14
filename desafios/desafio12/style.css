@@ -28,20 +28,25 @@ section {
     font-family: "Sriracha", "sans-serif";
     font-size: 3.5vw;
 }
+.foto {
+    box-shadow: inset 8px 8px 15px 0px rgba(0, 0, 0, 0.884);
+}
 .imag {
     display: inline-block;
     padding: 5px;
     margin-left: 35px;
     background-color: rgba(0, 0, 0, 0.397);
     color: white;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.473);
 }
 #joaninha {
-    background: black url(imagens/background001.jpg) center center no-repeat fixed;
+    background: black url(imagens/background001.jpg) center right no-repeat fixed;
     background-size: cover;
 }
 #papel {
     background: black url(imagens/background002.jpg) center center no-repeat fixed;
     background-size: cover;
+
 }
 section > p {
     padding: 40px;
