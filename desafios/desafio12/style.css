@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    padding: 20px 0px 20px 0px;
+    background-color: black;
+    text-align: center;
+    font-family: "Luckiest Guy", "sans-serif";
+    font-size: 2em;
+    color: white;
+}
+
+section {
+    padding: 30px 20px;
+    font-family: "Sriracha", "sans-serif";
+    font-size: 3em;
+}
+article {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+}
+#joaninha {
+    background: black url(imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+    height: 95vh;
+}
+#papel {
+    background: black url(imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    height: 95vh;
+}
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+a:hover {
+    text-decoration: underline;
+}
