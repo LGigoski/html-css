@@ -7,10 +7,14 @@
 </head>
 <body>
     <h1>A importancia de usar o "label"</h1>
-    <form action="cadastro.py">
-        <p>Nome: <input type="text" name="nome" id="nome"></p>
-        <p>Sobrenome <input type="text" name="sobrenome" id="sobrenome"></p>
+    <form method="post" action="cadastro.php">
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome"></p>
         <input type="submit" value="cadastro">
     </form>
+    <!-- o "<label>" é para ligar os campos com os nomes por exemplo a linha 11 "nome:" com o "<input>" da linha 12 usando o "id"-->
+    <!-- Para deixar mais seguro quando aperta o cadastrar no site vai aparece no link o que foi digitado, mas se no "form" usarsemos o "method='post'" ele não vai aparecer-->
 </body>
 </html>
