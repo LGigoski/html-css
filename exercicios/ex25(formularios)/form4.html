@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number, month & e-mail</title>
+</head>
+<body>
+    <h1>Number, Month & E-mail</h1>
+    <form action="cadastro.py" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" minlength="3" maxlength="20" placeholder="Nome e sobrenome" autocomplete="name" size="14">
+        </p>
+        <p>
+            <label for="imedia">Média: </label>
+            <input type="number" name="media" id="imedia" min="0" max="10" step="0.1" placeholder="0 a 10" value="5" required>
+        </p>
+        <p>
+            <label for="imes">Periodo Letivo:</label>
+            <input type="month" name="mes" id="imes" value="2022-11">
+        </p>
+        <p>
+            <label for="inas">Data de Nascimento:</label>
+            <input type="date" name="nas" id="inas" value="2000-01-01">
+        </p>
+        <p>
+            <label for="ihora">Hora de Nascimento</label>
+            <input type="time" name="hora" id="ihora" value="00:45">
+        </p>
+        <p>
+            <input type="submit" value="cadastro">
+            <input type="reset" value="limpar">
+        </p>
+
+    </form>
+</body>
+</html>

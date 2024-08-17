@@ -7,17 +7,17 @@
 </head>
 <body>
     <h1>Testando formulario</h1>
-    <form action="cadastro.js" method="post">
+    <form action="cadastro.py" method="get" autocomplete="on">
         
         <p>
             <label for="iuse">Username:</label>
-            <input type="text" name="use" id="iuse" required minlength="5" maxlength="15">
+            <input type="text" name="use" id="iuse" required minlength="5" maxlength="15" size="13" placeholder="Nome e sobrenome" autocomplete="username">
             
         </p>
         
         <p>
             <label for="isen">Senha</label>
-            <input type="password" name="sen" id="isen" required minlength="8">   
+            <input type="password" name="sen" id="isen" required minlength="8" placeholder="Use no minimo 8 digitos" size="17" autocomplete="current-password">   
         </p>
 
         <p><input type="submit" value="enviar"> <input type="reset" value="limpar"></p>
