@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo formulario</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="cadastro.py" method="get">
+        <p>
+            <label for="ies">Estado</label>
+            <select name="es" id="ies">
+                <option value="">---- Escolha ----</option>
+                <optgroup label="Suldeste">
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+
+                <optgroup label="Sul">
+                    <option value="PR">Parána</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rios Grande do Sul</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="ipr">Profissão: </label>
+            <input type="text" name="pr" id="ipr" list="lispr">
+            <datalist id="lispr">
+                <option value="A">Artista</option>
+                <option value="B">Bribliotecario</option>
+                <option value="C">Contador</option>
+                <option value="D">Dentista</option>
+                
+            </datalist>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
